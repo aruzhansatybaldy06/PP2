@@ -52,7 +52,7 @@ while run:
         # decrement in x co-ordinate
         x -= vel
           
-    # if left arrow key is pressed
+    # if left arrow key is pressed 
     if keys[pygame.K_RIGHT] and x<500-width:
           
         # increment in x co-ordinate
