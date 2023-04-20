@@ -18,8 +18,6 @@ path_to_photo = os.listdir('assets\\sound_images\\')
 path_to_sound.sort()
 path_to_photo.sort()
 
-#path_to_photo.pop(path_to_photo.index('.DS_Store'))
-#path_to_sound.pop(path_to_sound.index('.DS_Store'))
 sounds = []
 
 for i in zip(path_to_photo, path_to_sound):

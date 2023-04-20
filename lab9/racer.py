@@ -24,7 +24,7 @@ SCREEN_HEIGHT = 600
 SPEED = 5
 SPEED_ENEMY = 5
 SCORE = 0
-SCORE_COIN = 5
+SCORE_COIN = 0
 bg_y = 0
 
 #Setting up Fonts
@@ -178,4 +178,4 @@ while True:
           sys.exit()        
         
     pygame.display.update()
-    FramePerSec.tick(FPS) 
+    FramePerSec.tick(FPS)

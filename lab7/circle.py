@@ -1,13 +1,13 @@
 # import pygame module in this program 
 import pygame
   
-# activate the pygame library .  
+# activate the pygame library  
 # initiate pygame and give permission  
-# to use pygame's functionality.  
+# to use pygame's functionality  
 pygame.init()
   
 # create the display surface object  
-# of specific dimension..e(500, 500).  
+# of specific dimension..e(500, 500)
 win = pygame.display.set_mode((550, 550))
   
 # set the pygame window name 
@@ -33,12 +33,12 @@ while run:
     pygame.time.delay(10)
       
     # iterate over the list of Event objects  
-    # that was returned by pygame.event.get() method.  
+    # that was returned by pygame.event.get() method 
     for event in pygame.event.get():
           
         # if event object type is QUIT  
         # then quitting the pygame  
-        # and program both.  
+        # and program both  
         if event.type == pygame.QUIT:
               
             # it will make exit the while loop 

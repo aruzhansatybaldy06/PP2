@@ -43,7 +43,7 @@ def game():
 
     #start
     player = [220, 200]
-    snake = [[220, 200], [200, 200], [220, 200]]
+    snake = [[220, 200], [230, 200], [240, 200]]
 
     #FPS
     clock = pygame.time.Clock()
